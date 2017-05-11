@@ -1,0 +1,71 @@
+.guardians, .deadpool, .cyborg, .batman-superman, .sleepless, .kedi, .ongBak, .solomon, .crank {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 415px;
+}
+
+body {
+  background-color: #633487;
+}
+
+#row1 {
+  background-color: #7d5a54;
+}
+
+h1, h2 {
+  color: #d78524;
+}
+
+h3 {
+  color: #dee235;
+  text-decoration: underline;
+}
+
+.new-releases, .post-releases, .vintage{
+  text-align: justify;
+  color: #7ed92e;
+}
+
+.labelTiming{
+  color: white;
+}
+
+.pTiming{
+  color: #90b2ee;;
+  font-size: 28px;
+}
+
+.spanTiming{
+  color: white;
+  font-size: 22px;
+  text-align: justify;
+}
+
+#ages{
+  text-align: center;
+  width: 50px;
+}
+
+.optional{
+  color: black;
+  font-size: 20px;
+}
+
+.pTiming1{
+  color: black;
+}
+
+.output{
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  display: none;
+}
+
+.btn-info{
+  display: none;
+}
