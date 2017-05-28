@@ -69,3 +69,9 @@ h3 {
 .btn-info{
   display: none;
 }
+
+.resetButton{
+  display: none;
+  margin-left: 55px;
+  margin-top: 20px;
+}

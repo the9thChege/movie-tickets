@@ -11,35 +11,43 @@
 
 <body>
   <center>
-    <h1>Choose Your Movie!</h1></center>
+    <h1>Choose Your Movie!</h1>
+    <h5>By checking one of the boxes...</h5>
+  </center>
 
   <div class="container">
     <div class="row" id="row1">
       <div class="col-md-6">
-        <h3>New Releases:</h3>
-        <form class="new-releases">
-          <input type="checkbox" id="guardians" value="1"><label for="guardians">Guardians Of The Galaxy 2</label>
-          <br>
-          <input type="checkbox" id="deadpool" value="1"><label for="deadpool">Deadpool 2</label>
-          <br>
-          <input type="checkbox" id="cyborg" value="1"><label for="cyborg">Cyborg</label>
-        </form>
-        <h3>Post-release Titles:</h3>
-        <form class="post-releases">
-          <input type="checkbox" id="batman-superman" value="2"><label for="batman-superman">Batman Vs. Superman: Dawn of Justice</label>
-          <br>
-          <input type="checkbox" id="sleepless" value="2"><label for="sleepless">Sleepless</label>
-          <br>
-          <input type="checkbox" id="kedi" value="2"><label for="kedi">Kedi</label>
-        </form>
-        <h3>Vintage Classics:</h3>
-        <form class="vintage">
-          <input type="checkbox" id="ongBak" value="3"><label for="ongBak">Ong Bak</label>
-          <br>
-          <input type="checkbox" id="solomon" value="3"><label for="solomon">King Solomon</label>
-          <br>
-          <input type="checkbox" id="crank" value="3"><label for="crank">Crank 2: High Voltage</label>
-        </form>
+        <div class="new-releases">
+          <h3>Debut Movies:</h3>
+          <form>
+            <input type="checkbox" id="guardians" value="1"><label for="guardians">Guardians Of The Galaxy 2</label>
+            <br>
+            <input type="checkbox" id="deadpool" value="1"><label for="deadpool">Deadpool 2</label>
+            <br>
+            <input type="checkbox" id="cyborg" value="1"><label for="cyborg">Cyborg</label>
+          </form>
+        </div>
+        <div class="post-releases">
+          <h3>Post-release Titles:</h3>
+          <form>
+            <input type="checkbox" id="batman-superman" value="2"><label for="batman-superman">Batman Vs. Superman: Dawn of Justice</label>
+            <br>
+            <input type="checkbox" id="sleepless" value="2"><label for="sleepless">Sleepless</label>
+            <br>
+            <input type="checkbox" id="kedi" value="2"><label for="kedi">Kedi</label>
+          </form>
+        </div>
+        <div class="vintage">
+          <h3>Vintage Classics:</h3>
+          <form>
+            <input type="checkbox" id="ongBak" value="3"><label for="ongBak">Ong Bak</label>
+            <br>
+            <input type="checkbox" id="solomon" value="3"><label for="solomon">King Solomon</label>
+            <br>
+            <input type="checkbox" id="crank" value="3"><label for="crank">Crank 2: High Voltage</label>
+          </form>
+        </div>
       </div>
       <div class="col-md-6">
         <div class="guardians">
@@ -68,6 +76,9 @@
         </div>
         <div class="crank">
           <img src="img/crank-2.jpg" alt="High Voltage">
+        </div>
+        <div class="resetButton">
+          <button type="button" class="btn btn-warning"><a href="index.html">CHOOSE ANOTHER MOVIE</a></button>
         </div>
       </div>
     </div>
@@ -102,7 +113,7 @@
     <center>
       <div class="buttonPress">
         <button type="submit" class="btn-success" id="buttonPress">Calculate Ticket Price</button>
-        <button type="btn" class="btn-info" onclick="window.location.reload(true)">REFRESH</button>
+        <button type="btn" class="btn-info"><a href="index.html">REFRESH</a></button>
       </div>
     </center>
     <div class="output">
